@@ -4,7 +4,7 @@
   ('Finance'),
   ('Legal');
 
-  INSERT INTO roles (title, salary, department_id)
+  INSERT INTO employees (title, salary, department_id)
   ('Sales Lead', 100000, 1),
   ('Salesperson', 80000, 1),
   ('Lead Engineer', 150000, 2),
