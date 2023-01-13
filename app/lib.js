@@ -1,5 +1,5 @@
 export const readAllDepartments = (conn) =>
-  conn.execute("SELECT * FROM `employees`.`department`;");
+  conn.execute("SELECT * FROM `employee`.`department`;");
 
 // Find all employees, join with roles and departments to display their roles, salaries, departments, and managers
 export const readAllEmployees = (conn) =>

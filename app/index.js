@@ -127,7 +127,7 @@ const render = async () => {
 
       const [roles] = await readAllRoles(connection);
       const { roleId } = await inquirer.prompt(
-        questions.askRole(roles, "What is the employee's new role?")
+        questions.ask4Role(roles, "What is the employee's new role?")
       );
 
       await updateEmployeeRole(connection, employeeId, roleId);
