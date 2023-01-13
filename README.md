@@ -23,7 +23,7 @@ License: MIT ![MIT license](https://img.shields.io/badge/license-MIT-blue.svg) (
 
 ## Description
 
-A Node.js command-line application that acts as a CMS of a companies employee database. Using Node.js, Inquirer, and MySQL.
+A Node.js command-line application that acts as a CMS for a companies employee database. Using Node.js, Inquirer, and MySQL.
 
 ## Installation
 
@@ -38,7 +38,7 @@ The following necessary dependencies must be installed to run the application pr
 
 ## Usage
 
-Once you `cd` into the repo, `npm start` will watch the `app` directory for any changes using `nodemon`. Choose from the list of actions to view or edit the database. Link to Application Walkthrough Video: (https://youtu.be/D6IKXb9rmXU)
+Once you `cd` into the repo, `npm start` will watch the `app` directory for any changes using `nodemon`. Choose from the list of actions to view or edit the database. Link to Application Walkthrough Video: (https://www.youtube.com/watch?v=ehsNe4NRl_8)
 
 **You will need to create your own `.env` file similar to ⬇️**
 
