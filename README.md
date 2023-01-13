@@ -38,7 +38,7 @@ The following necessary dependencies must be installed to run the application pr
 
 ## Usage
 
-Once you `cd` into the repo, `npm start` will watch the `app` directory for any changes using `nodemon`. Choose from the list of actions to view or edit the database. Link to Application Walkthrough Video: (https://www.youtube.com/watch?v=ehsNe4NRl_8)
+Once you `cd` into the repo, `npm start` will watch the `app` directory for any changes using `nodemon`. Choose from the list of actions to view or edit the database. Link to Application Walkthrough Video: (https://drive.google.com/file/d/1Dzvj5jssxbfFFKulg9ZU45d3PYiLT1Bz/view)
 
 **You will need to create your own `.env` file similar to ⬇️**
 
