@@ -193,7 +193,7 @@ const render = async () => {
     case "REMOVE_ROLE": {
       const [roles] = await readAllRoles(connection);
       const { roleId } = await inquirer.prompt(
-        questions.askRole(roles, "Which role do you want to remove?")
+        questions.ask4Role(roles, "Which role do you want to remove?")
       );
 
       await delRole(connection, roleId);
@@ -210,7 +210,7 @@ const render = async () => {
     }
 
     case "ADD_DEPARTMENT": {
-      const { name } = await inquirer.prompt(questions.ask2AddDepartment());
+      const { name } = await inquirer.prompt(questions.ask2AddDept());
       await createDepartment(connection, name);
       console.info(`Added ${name} to the database`);
       render();

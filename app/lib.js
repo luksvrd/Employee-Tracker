@@ -34,7 +34,7 @@ export const readAllRoles = (conn) =>
   conn.execute("SELECT * FROM `employee`.`role`;");
 
 export const createDepartment = (conn, name) =>
-  conn.query("INSTER INTO department SET ?", [{ name }]);
+  conn.query("INSERT INTO department SET ?", [{ name }]);
 
 // Create a new employee
 export const createEmployee = (conn, employee) =>
